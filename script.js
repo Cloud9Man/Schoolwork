@@ -47,6 +47,35 @@ try {
   console.log(`Error: ${ex.toString()}`)
 }
 
+
+//Ķeram kļūdas
+try {
+  //Definējam mainīgos
+  var answerResult;
+  var answer = prompt("Yes or no")
+
+  //Ar switch() mēs varam mainīt outputu skatoties uz ievadīto vērtību
+  switch (answer) {
+    //lietojam || jo tas ļauj gan "yes", gan "yeah"
+    case "yes" || "yeah" :
+      answerResult = "Yayyy!"
+      alert(answerResult);
+      break;
+
+    case "no" || "nah" :
+      answerResult = "awhhh :["
+      alert(answerResult);
+      break;
+
+    //default, ja netiek dota neviena no pieejamajām vērtībām
+    default: 
+      answerResult = "Huh?"
+      alert(answerResult);
+  }
+} catch (ex) {
+  console.log(`Error: ${ex.toString()}`)
+}
+
 /*
   Bez try-catch arī varam iztikt, tikai netiks uzrādītas kļūdas, ja tādas rodas.
 
