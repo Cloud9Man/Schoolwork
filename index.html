@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tests</title>
+    <!-- Vienkārš CSS fails ar dažiem stiliem -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!--Šeit ievietojam 'script.js', jeb mūsu JS failu. Lietojam "defer" lai JS kodu lasītu pēc HTML elementu ielādēšanās -->
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <!-- Virsraksts 2, tā identifikators ir "meow", JS tā to arī uztvers - kā "meow" -->
+    <h2 id="meow">Meow</h2>
+    <!-- Tas pats arī attiecas uz šo rindkopu, JS to uztvers kā "result" -->
+    <p id="result"></p>
+  </body>
+  
+</html>
