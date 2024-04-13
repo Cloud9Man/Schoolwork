@@ -1,16 +1,9 @@
 # Schoolwork
 
-GitHub skolas projektiem un dokumentācijai visumā.
+Kā veidot terzētavu ar javascript?
 
-# Kā tikt uz piemēriem?
-
-- uzspied uz branches (ja esi uz "master", spied uz tā)
-- izvēlies konkrēto tematu
-- pielieto pēc nepieciešamības un droši ņem kodu.
-
-# Vēlies pats ievietot branch?
-
-- ielādē Git
-- ielogojies GitHub kontā
-- noskaties dažus pamācības
-- paziņo man laicīgi
+```javascript
+    createElement("p") // izveidot kādu HTML elementu balstoties pēc taga
+    appendChild() // pievienot elementu citam elementam
+    getElementById('meow') // iegūstam kādu noteiktu elementu
+```

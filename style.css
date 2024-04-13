@@ -1,0 +1,83 @@
+/* Šādi pievienojam fontu */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap');
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+}
+
+
+/* Galvenais terzētavas lauks */
+.mainSpace {
+  padding: 10px;
+  margin: auto;
+  border: 1px solid #000;
+  width: 85%;
+  height: 90%;
+}
+
+
+/* "Sūtīt" poga */
+.sendBtn {
+  width: 38%;
+  height: 3rem;
+  background: #fff;
+  color: #000;
+  border: 1px solid #bdff8c;
+  border-radius: 8px;
+  transition: 200ms;
+}
+
+.sendBtn:hover {
+  color: #fff;
+  background: #bdff8c;
+}
+
+/* Teksta logs */
+.sendText {
+  width: 60%;
+  background: #fff;
+  border: 1px solid #bdff8c;
+  border-radius: 8px;
+  -webkit-transition: 0.5s;
+  transition: 200ms;
+  outline: none;
+}
+
+.sendText:focus {
+  border: 1.5px solid #80cf44;
+}
+
+/* Teksta loga un pogas div elements */
+.inputs {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Čata logs */
+.chat {
+  border: 1px solid #000;
+  padding: 5px;
+  height: 80%;
+  overflow-y: auto;
+}
+
+/* Čata p elementi un to atkāpes */
+.chat p {
+  border: 1px solid #000;
+  margin: 5px;
+  padding: 3px;
+  border-radius: 8px;
+}
+
+.oldMessage {
+  background: #bababa;
+}
