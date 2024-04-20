@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap');
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  background-image: url("./bilde/cool-skull-pictures-oi8h4846tbciuosj.jpg");
+}
+
+.container {
+  display: block;
+  margin: auto;
+  width: 450px;
+  height: 700px;
+  background: #202020;
+
+}
+
+.container input {
+  width: 90%;
+  height: 80px;
+  margin: 10px auto;
+  background: #fff;
+}
+
+.inputs {
+  margin: 10px auto;
+  height: 80%;
+  width: 90%;
+  background: #fff;
+}
+
+.container input,
+.container .inputs {
+  display: block;
+}
+
+.innerContainer {
+  display: flex;
+}
+
+.row {
+  background: transparent;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
